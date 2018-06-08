@@ -12,7 +12,8 @@ common git operations without the terminal.
 # Installing clang-format for Xcode
 
 You can easily set up Xcode so a keyboard shortcut clang-format's your code 
-using SpECTRE's .clang-format file. 
+using SpECTRE's .clang-format file. (You might need to 
+<code>brew install clang-format</code> first.)
 
 1. Go to https://github.com/mapbox/XcodeClangFormat and click "Open in Xcode"
 2. In terminal, navigate to root directory of the repo you just cloned 
