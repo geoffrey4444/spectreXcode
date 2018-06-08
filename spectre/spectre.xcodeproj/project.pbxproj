@@ -1,0 +1,72 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8FB6A42920CAC1AE00AD89F6 /* spectre */ = {isa = PBXFileReference; lastKnownFileType = folder; name = spectre; path = ../..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8FB6A42220CAC17600AD89F6 = {
+			isa = PBXGroup;
+			children = (
+				8FB6A42920CAC1AE00AD89F6 /* spectre */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8FB6A42320CAC17600AD89F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 8FB6A42620CAC17600AD89F6 /* Build configuration list for PBXProject "spectre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FB6A42220CAC17600AD89F6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8FB6A42720CAC17600AD89F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8FB6A42820CAC17600AD89F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FB6A42620CAC17600AD89F6 /* Build configuration list for PBXProject "spectre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB6A42720CAC17600AD89F6 /* Debug */,
+				8FB6A42820CAC17600AD89F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FB6A42320CAC17600AD89F6 /* Project object */;
+}
