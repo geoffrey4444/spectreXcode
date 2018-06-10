@@ -4,6 +4,8 @@ edit the source tree. Xcode's git integration will also let you do at least
 common git operations without the terminal (provided that you sign in to github in 
 Xcode preferences).
 
+**I strongly recommend Xcode 10 beta to XCODE 9.**
+
 # Installation
 
 1. <code>cd $SPECTRE_ROOT; mkdir spectreXcode; cd spectreXcode</code>
