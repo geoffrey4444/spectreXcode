@@ -1,7 +1,8 @@
 # spectreXcode
 This repo contains a simple Xcode project that you can use to navigate and 
 edit the source tree. Xcode's git integration will also let you do at least 
-common git operations without the terminal.
+common git operations without the terminal (provided that you sign in to github in 
+Xcode preferences).
 
 # Installation
 
