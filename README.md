@@ -3,25 +3,31 @@ This repo contains a simple Xcode project that you can use to navigate and
 edit the source tree. Xcode's git integration will also let you do at least 
 common git operations without the terminal.
 
-# Installation and use
+# Installation
 
 1. <code>cd $SPECTRE_ROOT; mkdir spectreXcode; cd spectreXcode</code>
 2. <code>git clone git@github.com:geoffrey4444/spectreXcode.git .</code>
 3. <code>cd $SPECTRE_ROOT; open ./spectreXcode/spectre/spectre.xcodeproj</code>
 
-# Setting up the project
-Before you can use the Xcode project, there are two steps to set it up for your machine.
+4. Before you can use the Xcode project, there are two steps to set it up for your machine.
+
+# Set up the project (before first use)
 
 1. Update build settings. 
 
 You only need to do this step once.
 
 There are some paths that are machine dependent. 
-Click the "spectre" project in the file browser, then go to "Build Settings" and click "spectre" 
-under project." Scroll to the bottom. 
-You need to specify the absolute path to CHARM_ROOT, 
-OPENBLAS (typically will be the same on all Macs using homebrew for openblas), 
-SPECTRE_ROOT, SPACK_ROOT. 
+Click the "spectre" project in the project naviator (the left pane with files and 
+folders), then go to "Build Settings" and click "spectre" under "Project." 
+Scroll to the bottom to see SPECTRE_* environment 
+variables (Xcode calls them "settings"). 
+You need to specify the absolute path to CHARM_ROOT (where you built charm++ when 
+installing the spectre prerequisites),  
+SPECTRE_ROOT (where you cloned the spectre repo), SPACK_ROOT (where you installed your 
+spack modules when installing the 
+spectre prerequisites). There is also a path for OPENBLAS, but if you installed it with 
+homebrew, it's probably OK to leave this one as it is.
 
 There is also an option SPECTRE_TEST_GLOB. When you run/debug spectre, it runs 
 ./bin/RunTests $SPECTRE_TEST_GLOB. This option lets you decide what test gets run in the 
@@ -30,21 +36,21 @@ test you are trying to debug.
 
 2. Update the RunTests path.
 
-You only need to do this step once.
+You only need to do this step once, and then only if you want to use the Xcode debugger.
 
-To debug code, you need to tell Xcode where RunTests/ is. It turns out it's in a directory 
+To debug code, you need to tell Xcode where bin/RunTests is. It turns out it's in a directory 
 that's named uniquely to your system. 
 
 To figure out the directory, build the configure-spectre 
-target or (after configuring) the make-spectre target. Click the "Report" navigator, click 
+target and after configuring the make-spectre target. Click the "Report" navigator, click 
 the most recent build, and show the log (click the lines to the right of "running custom...")
 
 Or, just figure out which directory with a name like 
-~/Library/Developer/Xcode/DerivedData/spectre-*/build/Products. 
+<code>~/Library/Developer/Xcode/DerivedData/spectre-*/build/Products</code>. 
 It's the one most recently modified, if you just built spectre. Look in the bin/ directory in 
 there to find the correct RunTests.
 
-Then select the "make-spectre" target and choose Product->Scheme->Edit Scheme... 
+Then select the "make-spectre" target and choose Product->Scheme->Edit Scheme... from the menui bar.
 Under Info, choose "Other..." under executable. Select your RunTests executable.
 
 3. Update the index (optional)
@@ -61,6 +67,8 @@ then only when you want to update the index for code completion.
 
 Use the folder reference (blue folder) already in the project for actual work (add, remove, 
 edit files). The blue folder updates in real time as files come and go. 
+
+If you add new files, you can drag just those files into the relevant spectre group to index just the new files.
 
 # Adding custom targets
 
