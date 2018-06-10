@@ -1808,7 +1808,7 @@
 		8FAB014120CC40780004B8F3 /* 1bc8692a9458d319eacf8d12123298a0-manifest.xcbuild */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1bc8692a9458d319eacf8d12123298a0-manifest.xcbuild"; sourceTree = "<group>"; };
 		8FAB014220CC40780004B8F3 /* 9b8dbd2ca7cc8235b4cd652fbbc2079a-desc.xcbuild */ = {isa = PBXFileReference; lastKnownFileType = file; path = "9b8dbd2ca7cc8235b4cd652fbbc2079a-desc.xcbuild"; sourceTree = "<group>"; };
 		8FAB014320CC40780004B8F3 /* 3d00ce138aa76780a28cffc2fe9d4847-manifest.xcbuild */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3d00ce138aa76780a28cffc2fe9d4847-manifest.xcbuild"; sourceTree = "<group>"; };
-		8FAB014420CC40780004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
+		8FAB014420CC40780004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
 		8FAB014520CC40780004B8F3 /* build.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = build.db; sourceTree = "<group>"; };
 		8FAB014620CC40780004B8F3 /* 63d46ed4a771616aa7e76b061d516f7c-desc.xcbuild */ = {isa = PBXFileReference; lastKnownFileType = file; path = "63d46ed4a771616aa7e76b061d516f7c-desc.xcbuild"; sourceTree = "<group>"; };
 		8FAB014720CC40780004B8F3 /* 3d00ce138aa76780a28cffc2fe9d4847-desc.xcbuild */ = {isa = PBXFileReference; lastKnownFileType = file; path = "3d00ce138aa76780a28cffc2fe9d4847-desc.xcbuild"; sourceTree = "<group>"; };
@@ -3434,7 +3434,7 @@
 		8FAB0B2F20CC40870004B8F3 /* lock.mdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = lock.mdb; sourceTree = "<group>"; };
 		8FAB0B3020CC40870004B8F3 /* data.mdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.mdb; sourceTree = "<group>"; };
 		8FAB0B3420CC40870004B8F3 /* 40e35c9d805b92ee1a6df835d4a1c214-manifest.xcbuild */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "40e35c9d805b92ee1a6df835d4a1c214-manifest.xcbuild"; sourceTree = "<group>"; };
-		8FAB0B3520CC40870004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
+		8FAB0B3520CC40870004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
 		8FAB0B3620CC40870004B8F3 /* build.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = build.db; sourceTree = "<group>"; };
 		8FAB0B3920CC40870004B8F3 /* TARGET@v8_hash=6354ED603727B81AE4B8D2C04AC91C9C-json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TARGET@v8_hash=6354ED603727B81AE4B8D2C04AC91C9C-json"; sourceTree = "<group>"; };
 		8FAB0B3A20CC40870004B8F3 /* TARGET@v8_hash=9AA63F426954D52BC1F39D775C896E95-json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TARGET@v8_hash=9AA63F426954D52BC1F39D775C896E95-json"; sourceTree = "<group>"; };
@@ -5895,7 +5895,7 @@
 		8FABE96520CC3B7D0004B8F3 /* 1bc8692a9458d319eacf8d12123298a0-manifest.xcbuild */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1bc8692a9458d319eacf8d12123298a0-manifest.xcbuild"; sourceTree = "<group>"; };
 		8FABE96620CC3B7D0004B8F3 /* 9b8dbd2ca7cc8235b4cd652fbbc2079a-desc.xcbuild */ = {isa = PBXFileReference; lastKnownFileType = file; path = "9b8dbd2ca7cc8235b4cd652fbbc2079a-desc.xcbuild"; sourceTree = "<group>"; };
 		8FABE96720CC3B7D0004B8F3 /* 3d00ce138aa76780a28cffc2fe9d4847-manifest.xcbuild */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3d00ce138aa76780a28cffc2fe9d4847-manifest.xcbuild"; sourceTree = "<group>"; };
-		8FABE96820CC3B7D0004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
+		8FABE96820CC3B7D0004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
 		8FABE96920CC3B7D0004B8F3 /* build.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = build.db; sourceTree = "<group>"; };
 		8FABE96A20CC3B7D0004B8F3 /* 63d46ed4a771616aa7e76b061d516f7c-desc.xcbuild */ = {isa = PBXFileReference; lastKnownFileType = file; path = "63d46ed4a771616aa7e76b061d516f7c-desc.xcbuild"; sourceTree = "<group>"; };
 		8FABE96B20CC3B7D0004B8F3 /* 3d00ce138aa76780a28cffc2fe9d4847-desc.xcbuild */ = {isa = PBXFileReference; lastKnownFileType = file; path = "3d00ce138aa76780a28cffc2fe9d4847-desc.xcbuild"; sourceTree = "<group>"; };
@@ -7521,7 +7521,7 @@
 		8FABF35320CC3B8A0004B8F3 /* lock.mdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = lock.mdb; sourceTree = "<group>"; };
 		8FABF35420CC3B8A0004B8F3 /* data.mdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.mdb; sourceTree = "<group>"; };
 		8FABF35820CC3B8A0004B8F3 /* 40e35c9d805b92ee1a6df835d4a1c214-manifest.xcbuild */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "40e35c9d805b92ee1a6df835d4a1c214-manifest.xcbuild"; sourceTree = "<group>"; };
-		8FABF35920CC3B8A0004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
+		8FABF35920CC3B8A0004B8F3 /* BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BuildDescriptionCacheIndex-9c6afad8102e7838c2efbe507d0da7d8"; sourceTree = "<group>"; };
 		8FABF35A20CC3B8A0004B8F3 /* build.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = build.db; sourceTree = "<group>"; };
 		8FABF35D20CC3B8A0004B8F3 /* TARGET@v8_hash=6354ED603727B81AE4B8D2C04AC91C9C-json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TARGET@v8_hash=6354ED603727B81AE4B8D2C04AC91C9C-json"; sourceTree = "<group>"; };
 		8FABF35E20CC3B8A0004B8F3 /* TARGET@v8_hash=9AA63F426954D52BC1F39D775C896E95-json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TARGET@v8_hash=9AA63F426954D52BC1F39D775C896E95-json"; sourceTree = "<group>"; };
@@ -39787,6 +39787,20 @@
 			passBuildSettingsInEnvironment = 1;
 			productName = "make-spectre";
 		};
+		8FAB151120CD717A0004B8F3 /* make-docs */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-l MakeDocs.sh";
+			buildConfigurationList = 8FAB151420CD717A0004B8F3 /* Build configuration list for PBXLegacyTarget "make-docs" */;
+			buildPhases = (
+			);
+			buildToolPath = /bin/bash;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "make-docs";
+			passBuildSettingsInEnvironment = 1;
+			productName = "make-docs";
+		};
 		8FB6A42E20CAE35300AD89F6 /* configure-spectre */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "-l Configure.sh";
@@ -39835,6 +39849,9 @@
 					8F39A7F020CC0BF7005C7462 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					8FAB151120CD717A0004B8F3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					8FABE50020CC3ADC0004B8F3 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -39869,6 +39886,7 @@
 				8F39A7EC20CB996B005C7462 /* run-all-tests */,
 				8F39A7F020CC0BF7005C7462 /* make-spectre */,
 				8FABE50020CC3ADC0004B8F3 /* xcode-index */,
+				8FAB151120CD717A0004B8F3 /* make-docs */,
 			);
 		};
 /* End PBXProject section */
@@ -40938,6 +40956,119 @@
 			};
 			name = Release;
 		};
+		8FAB151220CD717A0004B8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FAB151320CD717A0004B8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8FABE50620CC3ADC0004B8F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -41215,6 +41346,15 @@
 			buildConfigurations = (
 				8F39A7F220CC0BF7005C7462 /* Debug */,
 				8F39A7F320CC0BF7005C7462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAB151420CD717A0004B8F3 /* Build configuration list for PBXLegacyTarget "make-docs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAB151220CD717A0004B8F3 /* Debug */,
+				8FAB151320CD717A0004B8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

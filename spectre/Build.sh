@@ -29,6 +29,7 @@ module load openssl-1.0.2n-clang-9.1.0-apple-htziakl
 module load pkgconf-1.4.2-clang-9.1.0-apple-564r23i
 module load yaml-cpp-develop-clang-9.1.0-apple-adpn6bj
 module load zlib-1.2.11-clang-9.1.0-apple-jgaeca4
+module load doxygen-1.8.12-clang-9.1.0-apple-yosy72f
 
 echo "Building in ${BUILD_ROOT}"
 cd $BUILD_ROOT

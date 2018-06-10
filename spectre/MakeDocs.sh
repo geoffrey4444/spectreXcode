@@ -1,5 +1,5 @@
 #! /bin/bash
-# This script configures SpECTRE on macOS. It requires that you define these
+# It requires that you define these
 # build settings in your build target:
 # SPECTRE_ROOT
 # CHARM_ROOT
@@ -29,27 +29,8 @@ module load openssl-1.0.2n-clang-9.1.0-apple-htziakl
 module load pkgconf-1.4.2-clang-9.1.0-apple-564r23i
 module load yaml-cpp-develop-clang-9.1.0-apple-adpn6bj
 module load zlib-1.2.11-clang-9.1.0-apple-jgaeca4
-module load doxygen-1.8.12-clang-9.1.0-apple-yosy72f
+module load doxygen doxygen-1.8.12-clang-9.1.0-apple-yosy72f
 
-# Configure
-echo "Build variables..."
-echo -n "SPECTRE_CHARM_ROOT="
-echo ${SPECTRE_CHARM_ROOT}
-echo -n "SPECTRE_ROOT="
-echo ${SPECTRE_ROOT}
-echo -n "SPECTRE_SPACK_ROOT="
-echo ${SPECTRE_SPACK_ROOT}
-echo -n "SPECTRE_OPENBLAS_PATH="
-echo ${SPECTRE_OPENBLAS_PATH}
-echo -n "BUILD_ROOT="
-echo ${BUILD_ROOT}
-
-echo "Configure..."
-mkdir -p ${BUILD_ROOT}
-cd ${BUILD_ROOT}
-cmake -D CMAKE_CXX_COMPILER=clang++ -D CMAKE_C_COMPILER=clang \
-      -D CMAKE_Fortan_COMPILER=gfortran -D CHARM_ROOT=${SPECTRE_CHARM_ROOT} \
-      -D LAPACK_LIBRARIES=${SPECTRE_OPENBLAS_PATH} \
-      -D BLAS_LIBRARIES=${SPECTRE_OPENBLAS_PATH} \
-      ${SPECTRE_ROOT}
-
+echo "Making documentation in ${BUILD_ROOT}"
+cd $BUILD_ROOT
+make doc
